@@ -2,7 +2,11 @@
   "name": "drusus",
   "version": "1.0.0",
   "description": "First Hapi app",
-  "main": "index.js",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:snowpup68/drusus.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
