@@ -17,7 +17,13 @@
   "dependencies": {
     "boom": "^4.2.0",
     "glue": "^4.0.0",
+    "blipp": "^2.3.0",
     "hapi": "^15.2.0",
+    "hapi-level": "^5.0.1",
+    "hapi-swagger": "^7.5.0",
+    "inert": "^4.1.0",
+    "package": "^1.0.1",
+    "vision": "^4.1.1",
     "hapi-auth-basic": "^4.2.0",
     "hapi-auth-cookie": "^6.1.1",
     "hapi-level": "^5.0.1",
