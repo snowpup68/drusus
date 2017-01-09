@@ -8,11 +8,25 @@
     "url": "git@github.com:snowpup68/drusus.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lab && npm run lint",
+    "lab": "lab --coverage ./test/index.js",
+    "lint": "standard-format --write && standard"
   },
   "author": "Jai Rajagopalan",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^15.2.0"
+    "boom": "^4.2.0",
+    "glue": "^4.0.0",
+    "hapi": "^15.2.0",
+    "hapi-auth-basic": "^4.2.0",
+    "hapi-auth-cookie": "^6.1.1",
+    "hapi-level": "^5.0.1",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^11.2.0",
+    "standard": "^8.5.0",
+    "standard-format": "^2.2.3"
   }
 }
